@@ -19,7 +19,7 @@ if req:
 else:
     print("[ERROR] Please connect to internet and try again.")
 print("""Hello! Wallux is a wallpaper library hosted on Github.
-Please visit <link> to choose a wallpaper and enter its Wallux ID here.
+Please visit https://projext-bb63.github.io/Wallux/ to choose a wallpaper and enter its Wallux ID here.
 
 Wallux ID:""")
 try:
