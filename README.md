@@ -23,6 +23,7 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 * After you are done cloning the repository,
 
     ``cd Wallux``
+    
     ``python3 wallux.py``
 
 * This will get the program running in no time.
