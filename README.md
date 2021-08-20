@@ -16,15 +16,22 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 
 * Download the program by cloning the repository.
 
-    ``git clone https://github.com/Wallux-0/Wallux.git``
+    
+
+bash
+    git clone https://github.com/Wallux-0/Wallux.git
+    
 
 ### How to run Wallux
 
 * After you are done cloning the repository,
 
-    ``cd Wallux``
     
-    ``python3 wallux.py``
+
+bash
+    cd Wallux
+    python3 wallux.py
+    
 
 * This will get the program running in no time.
 
