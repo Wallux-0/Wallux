@@ -11,9 +11,9 @@ print("""
  ███ ███  ██   ██ ███████ ███████  ██████  ██   ██ 
                                                    """)
 print("[INFO] Initializing...\n")
-baseurl = "https://github.com/ProjeXt-bb63/Wallux/raw/main/"
+baseurl = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/"
 req = requests.get(
-    "https://raw.githubusercontent.com/ProjeXt-bb63/Wallux/main/static/tags.json")
+    "https://raw.githubusercontent.com/Wallux-0/Wallux/main/static/tags.json")
 if req:
     content = eval(req.content)
     content = content['wallpaper']
