@@ -38,5 +38,6 @@
 {"name": "The devil's Bridge", "description": "From default solus wallpaper collection", "tags": ["Nature", "River"], "path": "wallpapers/37.jpg"},
 {"name": "Tulip Bee", "description": "From default solus wallpaper collection", "tags": ["Nature", "Flower", "Bright"], "path": "wallpapers/38.jpg"},
 {"name": "Grand Canal", "description": "From default solus wallpaper collection", "tags": ["Night", "Dark", "Man-made"], "path": "wallpapers/39.jpg"},
-{"name": "Waves of Blue", "description": "From default solus wallpaper collection", "tags": ["Abstract", "Bright"], "path": "wallpapers/40.jpg"}
+{"name": "Waves of Blue", "description": "From default solus wallpaper collection", "tags": ["Abstract", "Bright"], "path": "wallpapers/40.jpg"},
+{"name": "Arch-Chan", "description": "Arch-chan Wallpaper. Credits to https://twitter.com/raviolimavioli?lang=en", "tags": ["Anime", "Branding", "Dark"], "path": "wallpapers/41.png"}
 ]}
