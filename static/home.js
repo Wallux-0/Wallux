@@ -20,7 +20,6 @@ function workwithdata(data) {
     for (i in final_array) {
         tagstr = '';
         arr = final_array[i]['tags'];
-        console.log(arr);
         for (j in arr) {
             tagstr += arr[j];
             tagstr += ", ";
