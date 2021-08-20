@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background: linear-gradient(77deg, #d616c6, #030303, #561674, #0e287e, #640a36, #000000);
+    background-size: 1200% 1200%;
+    -webkit-animation: GradientBg 30s ease infinite;
+    -moz-animation: GradientBg 30s ease infinite;
+    animation: GradientBg 30s ease infinite;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5bb;
+}
+
+@-webkit-keyframes GradientBg {
+    0% {
+        background-position: 0% 35%
+    }
+    50% {
+        background-position: 100% 66%
+    }
+    100% {
+        background-position: 0% 35%
+    }
+}
+
+@-moz-keyframes GradientBg {
+    0% {
+        background-position: 0% 35%
+    }
+    50% {
+        background-position: 100% 66%
+    }
+    100% {
+        background-position: 0% 35%
+    }
+}
+
+@keyframes GradientBg {
+    0% {
+        background-position: 0% 35%
+    }
+    50% {
+        background-position: 100% 66%
+    }
+    100% {
+        background-position: 0% 35%
+    }
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.description {
+    font-size: 23;
+    text-align: center;
+}
+
+::placeholder {
+    color: hsl(0, 0%, 79%);
+}
+
+.search {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 79%);
+    font-weight: lighter;
+    font-size: 28;
+    margin-top: 2vh;
+    background-color: rgba(255, 255, 255, 0.233);
+    border: none;
+    border-radius: 0.5vh;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 30vh;
+}
+
+.searchBtn {
+    color: hsl(0, 0%, 79%);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 28;
+    cursor: pointer;
+}
+
+.container {
+    margin: 1vh;
+    margin-top: 5vh;
+}
+
+.glassyContainer {
+    display: inline-block;
+    background: rgba( 255, 255, 255, 0.20);
+    backdrop-filter: blur( 2.0px);
+    -webkit-backdrop-filter: blur( 2.0px);
+    border-radius: 0.5vh;
+    width: auto;
+    height: auto;
+    padding: 5 5 5 5;
+    margin: 1vh;
+}
+
+.imgDisp {
+    width: 40vh;
+}
+
+.imgText {
+    margin-top: 0.4vh;
+    text-align: center;
+}
+
+a {
+    color: #ee82ee;
+}
