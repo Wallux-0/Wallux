@@ -16,10 +16,9 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 
 * Download the program by cloning the repository.
 
-    
-
-bash
+    ```bash
     git clone https://github.com/Wallux-0/Wallux.git
+    ```
     
 
 ### How to run Wallux
@@ -28,10 +27,10 @@ bash
 
     
 
-bash
+    ```bash
     cd Wallux
     python3 wallux.py
-    
+    ```
 
 * This will get the program running in no time.
 
