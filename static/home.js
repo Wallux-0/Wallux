@@ -26,7 +26,7 @@ function workwithdata(data) {
         }
         tagstr = tagstr.slice(0, -2);
         container_.innerHTML +=
-            "<div class=\"glassyContainer\"> <img class = \"imgDisp\" loading=\"lazy\" src = \"" + final_array[i]['path'] + "\"><div class=\"imgText\"> <b>" + final_array[i]['name'] + "</b><br>" + tagstr + "<br>Wallux ID: <b>" + final_array[i]['path'].replace(/\D/g, "") + "</b></div></div>";
+            "<div class=\"glassyContainer\"> <img class = \"imgDisp\" loading=\"lazy\" src = \"" + final_array[i]['path'] + "\"><div class=\"imgText\"> <b>" + final_array[i]['name'] + "</b>Description: "+final_array[i]['description']+"<br>" + tagstr + "<br>Wallux ID: <b>" + final_array[i]['path'].replace(/\D/g, "") + "</b></div></div>";
     }
 
 };
