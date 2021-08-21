@@ -12,14 +12,8 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 
 ### How to get Wallux
 
-* Start by forking the repository using this <a href="https://wallux-0.github.io/Wallux/">link</a>.
+* Download the program by directly from the repo or get from releases.
 
-* Download the program by cloning the repository.
-
-    ```bash
-    git clone https://github.com/Wallux-0/Wallux.git
-    ```
-    
 
 ### How to run Wallux
 
