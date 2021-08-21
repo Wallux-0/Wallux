@@ -23,16 +23,14 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 
 ### How to run Wallux
 
-* After you are done cloning the repository,
+* Just download the wallux.py script and,
 
     
 
     ```bash
-    cd Wallux
     python3 wallux.py
     ```
 
-* This will get the program running in no time.
 
 ### How to use Wallux
 
