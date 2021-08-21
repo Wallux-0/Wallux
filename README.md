@@ -36,4 +36,7 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 Feel free to contribute your favorite wallpapers. Read <a href="#">this</a> for more information.
 
 ### Problems?
-Open an issue using this <a href="https://github.com/Wallux-0/Wallux/issues">link</a>.
+Open an issue <a href="https://github.com/Wallux-0/Wallux/issues">here</a>.
+
+#### Disclaimer
+All the content belong to their respective owners. We have tried to give credits and link backs to the original user wherever possible. Please DM one of our members if you don't want your content here or if we forgot to add due credits. ^~^
