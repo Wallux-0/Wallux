@@ -251,6 +251,12 @@
             "description": "From default Zorin wallpaper collection",
             "tags": ["Nature", "Mountain", "Light", "Dark"],
             "path": "wallpapers/42.png"
+        },
+        {
+            "name": "Coast",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Ocean", "Light", "Dark"],
+            "path": "wallpapers/43.png"
         }
     ]
 }
