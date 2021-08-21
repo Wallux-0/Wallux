@@ -245,6 +245,12 @@
             "description": "Arch-chan Wallpaper. Credits to https://twitter.com/raviolimavioli?lang=en",
             "tags": ["Anime", "Branding", "Dark"],
             "path": "wallpapers/41.png"
+        },
+        {
+            "name": "Zorin",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Mountain", "Light", "Dark"],
+            "path": "wallpapers/41.png"
         }
     ]
 }
