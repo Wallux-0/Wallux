@@ -8,23 +8,19 @@
 </div>
 
 ## Wallpapers for GNOME, KDE and XFCE
+
 A collection of beautiful wallpapers. That's it. As simple as that!
 
 ### How to get Wallux
 
 * Download the program by directly from the repo or get from releases.
 
-
 ### How to run Wallux
 
 * Just download the wallux.py script and,
-
-    
-
     ```bash
     python3 wallux.py
     ```
-
 
 ### How to use Wallux
 
@@ -33,26 +29,31 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 > Note: If Wallux fails to set your the selected wallpaper, you can find the image downloaded in the ``~/Documents/`` folder.
 
 ### How to contribute
-Feel free to contribute your favorite wallpapers by
 
-* Fork the <a href="https://github.com/Wallux-0/Wallpapers">wallpaper's repo</a>.
-* Rename your wallpaper to the biggest wallpaper number + 1 without changing the extension. Upload the wallpaper to the wallpapers folder.
-* Fork this repo and,
-* Add a line at the end in the static/tags.json as shown below. Follow JSON rules.
+Feel free to contribute your favorite wallpapers by:
+* Adding your wallpaper:
+  * Fork <a href="https://github.com/Wallux-0/Wallpapers">this repository</a> which contains all the wallpapers.
+  * Name your wallpaper as the largest wallpaper number + 1 without changing the extension. Upload the wallpaper to ``\wallpapers`` folder.
+  * Create a Pull Request and copy the PR's link for the next step.
 
-```json
-{
-            "name": "A nice name for your wallpaper",
-            "description": "Description for the image and credits to the creator if available.",
-            "tags": ["Tags", "that", "you", "think", "that", "describes", "the", "wallpaper", "Add", "dark", "or", "light"],
-            "path": "wallpapers/<the same number as the one you uploaded in the wallpapers repo>.<jpg|png>"
-}
-```
-
-* Create a PR in both repo's.
+* Provide details of the wallpaper:
+  * Fork <a href="https://github.com/Wallux-0/Wallux">this repository</a> which contains all program.
+  * Add a line at the end in ``static/tags.json`` as shown below.
+  ```json
+  {
+      "name": "<wallpaper name>",
+      "description": "<Description | Credits>",
+      "tags": ["<Tag1>", "<Tag2>", "dark", "light"],
+      "path": "wallpapers/<wallpaper_number_in_wallpaper_repo>.<jpg|png>"
+  }
+  ```
+  > Make sure to add ``"Light"`` and/or ``"Dark"`` in ``"tags"``.
+  * Create a PR and provide the link of the PR you have previosly created in the description.
 
 ### Problems?
-Open an issue <a href="https://github.com/Wallux-0/Wallux/issues">here</a>.
+
+If you have any issues, open an issue <a href="https://github.com/Wallux-0/Wallux/issues">here</a>.
 
 ### Disclaimer
-All the content belong to their respective owners. We have tried to give credits and link backs to the original user wherever possible. Please DM one of our members if you don't want your content here or if we forgot to add due credits. ^~^
+
+All the content belong to their respective owners. We have tried to give credits and link backs to the original user wherever possible. Please DM one of our members if you don't want your content here or if we forgot to add due credits.
