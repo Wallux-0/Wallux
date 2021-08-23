@@ -52,7 +52,7 @@ Feel free to contribute your favorite wallpapers by:
 
 ### Problems?
 
-If you have any problems, open an issue <a href="https://github.com/Wallux-0/Wallux/issues">here</a>.
+If you have any issues, open an issue <a href="https://github.com/Wallux-0/Wallux/issues">here</a>.
 
 ### Disclaimer
 
