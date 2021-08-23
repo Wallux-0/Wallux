@@ -30,8 +30,8 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 
 ### How to contribute
 
-Feel free to contribute your favorite wallpapers by completing the following 2 steps:
-* Add your wallpaper:
+Feel free to contribute your favorite wallpapers by:
+* Adding your wallpaper:
   * Fork <a href="https://github.com/Wallux-0/Wallpapers">this repository</a> which contains all the wallpapers.
   * Name your wallpaper as the largest wallpaper number + 1 without changing the extension. Upload the wallpaper to ``\wallpapers`` folder.
   * Create a Pull Request and copy the PR's link for the next step.
