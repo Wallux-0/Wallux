@@ -1,7 +1,7 @@
 # Wallux
 
 
-![Wallux](cover.jpg)
+![Wallux](Wallux_cover.png)
 
 <div align="center">
   :small_blue_diamond: <a href="https://wallux-0.github.io/Wallux/"> Visit the Website </a> :small_blue_diamond:
