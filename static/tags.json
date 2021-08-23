@@ -257,6 +257,12 @@
             "description": "From default Zorin wallpaper collection",
             "tags": ["Nature", "Ocean", "Light", "Dark"],
             "path": "wallpapers/43.jpg"
+        },
+        {
+            "name": "Lake",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Lake", "Light", "Dark"],
+            "path": "wallpapers/44.jpg"
         }
     ]
 }
