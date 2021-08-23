@@ -263,6 +263,12 @@
             "description": "From default Zorin wallpaper collection",
             "tags": ["Nature", "Lake", "Light", "Dark"],
             "path": "wallpapers/44.jpg"
+        },
+        {
+            "name": "Kali Blue",
+            "description": "From default Kali Linux wallpaper collection",
+            "tags": ["Branding", "Light"],
+            "path": "wallpapers/45.png"
         }
     ]
 }
