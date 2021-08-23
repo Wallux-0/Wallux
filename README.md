@@ -13,7 +13,7 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 
 ### How to get Wallux
 
-* Download the program by directly from the repo or get from releases.
+* Download the script from <a href="https://raw.githubusercontent.com/Wallux-0/Wallux/main/wallux.py">here</a> by right clicking the opened raw file and using Save Page As.
 
 ### How to run Wallux
 
