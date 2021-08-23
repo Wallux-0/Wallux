@@ -237,7 +237,7 @@
         {
             "name": "Waves of Blue",
             "description": "From default solus wallpaper collection",
-            "tags": ["Abstract", "Bright", "Light", "Dark"],
+            "tags": ["Abstract", "Bright", "Dark"],
             "path": "wallpapers/40.jpg"
         },
         {
@@ -247,21 +247,21 @@
             "path": "wallpapers/41.png"
         },
         {
-            "name": "Zorin",
+            "name": "Foggy Mountain",
             "description": "From default Zorin wallpaper collection",
-            "tags": ["Nature", "Mountain", "Light", "Dark"],
+            "tags": ["Nature", "Mountain", "Dark"],
             "path": "wallpapers/42.png"
         },
         {
-            "name": "Coast",
+            "name": "Sea and Forest",
             "description": "From default Zorin wallpaper collection",
-            "tags": ["Nature", "Ocean", "Light", "Dark"],
+            "tags": ["Nature", "Ocean", "Light"],
             "path": "wallpapers/43.jpg"
         },
         {
             "name": "Lake",
             "description": "From default Zorin wallpaper collection",
-            "tags": ["Nature", "Lake", "Light", "Dark"],
+            "tags": ["Nature", "Lake", "Light"],
             "path": "wallpapers/44.jpg"
         },
         {
