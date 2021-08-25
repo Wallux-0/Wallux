@@ -269,6 +269,108 @@
             "description": "From default Kali Linux wallpaper collection",
             "tags": ["Branding", "Light"],
             "path": "wallpapers/45.png"
+        },
+        {
+            "name": "Borealis-by-Vincent-Guth",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Night", "Dark"],
+            "path": "wallpapers/46.png"
+        },
+        {
+            "name": "Colosseum-by-Yoal-Desurmont",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Man-made", "Architecture", "Light"],
+            "path": "wallpapers/47.png"
+        },
+        {
+            "name": "Desert-by-Mark-Eder",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Light"],
+            "path": "wallpapers/48.png"
+        },
+        {
+            "name": "Green-by-Qingbao-Meng",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Light", "Dark"],
+            "path": "wallpapers/49.png"
+        },
+        {
+            "name": "Hexagons-by-Faris-Mohammed",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Abstract", "Light", "Dark"],
+            "path": "wallpapers/50.png"
+        },
+        {
+            "name": "Hillside-by-Christoffer-Engstrom",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Light", "Dark"],
+            "path": "wallpapers/51.png"
+        },
+        {
+            "name": "Hot-Air-Balloons-by-Yonatan-Anugerah",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Man-made", "Light"],
+            "path": "wallpapers/52.png"
+        },
+        {
+            "name": "Logotype",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Logotype", "Light"],
+            "path": "wallpapers/53.png"
+        },
+        {
+            "name": "Monument-Valley-by-Kevin-Horstmann",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Light", "Dark"],
+            "path": "wallpapers/54.png"
+        },
+        {
+            "name": "Palm-by-Jessica-F",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Dark"],
+            "path": "wallpapers/55.png"
+        },
+        {
+            "name": "Red-by-Martin-Adams",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Abstract", "Light", "Dark"],
+            "path": "wallpapers/56.png"
+        },
+        {
+            "name": "Temple-by-Sven-Scheuermeier",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Man-made", "Light", "Dark"],
+            "path": "wallpapers/57.png"
+        },
+        {
+            "name": "Valley-by-Connor-Siedow",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Light", "Dark"],
+            "path": "wallpapers/58.png"
+        },
+        {
+            "name": "Wave-by-Jeremy-Bishop",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Nature", "Light"],
+            "path": "wallpapers/59.png"
+        },
+        {
+            "name": "xfce-blue",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Logotype", "Light", "Dark"],
+            "path": "wallpapers/60.png"
+        },
+        {
+            "name": "xfce-stripes",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Logotype", "Light"],
+            "path": "wallpapers/61.png"
+        },
+        {
+            "name": "xfce-teal",
+            "description": "From default Zorin wallpaper collection",
+            "tags": ["Logotype", "Light", "Dark"],
+            "path": "wallpapers/62.png"
         }
     ]
 }
