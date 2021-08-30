@@ -13,16 +13,22 @@ A collection of beautiful wallpapers. That's it. As simple as that!
 
 ### How to get Wallux
 
+* Download the Desktop App (linux only) from <a href="https://github.com/Wallux-0/Wallux-Desktop/releases/download/beta/wallux">here</a>.
+
+OR
+
 * Download the script from <a href="https://raw.githubusercontent.com/Wallux-0/Wallux/main/wallux.py">here</a> by right clicking the opened raw file and using Save Page As.
 
 ### How to run Wallux
 
-* Just download the wallux.py script and,
+* If you have downloaded the binary, just double click to run.
+
+* If you have downloaded the script, just download the wallux.py script and,
     ```bash
     python3 wallux.py
     ```
 
-### How to use Wallux
+### How to use Wallux (Only if you have downloaded the script)
 
 * Checkout all the available wallpapers using this <a href="https://wallux-0.github.io/Wallux/">link</a>.
 * Type the id number of the wallpaper you like and relax.
