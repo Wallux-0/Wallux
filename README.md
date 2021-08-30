@@ -21,7 +21,7 @@ OR
 
 ### How to run Wallux
 
-* If you have downloaded the binary, just double click to run.
+* If you have downloaded the binary, make it executable by ```bash chmod +x wallux``` or right-click, goto permissions tab and select the "Run as executable" checkbox and just double click to run.
 
 * If you have downloaded the script, just download the wallux.py script and,
     ```bash
