@@ -371,6 +371,103 @@
             "description": "From default Zorin wallpaper collection",
             "tags": ["Logotype", "Light", "Dark"],
             "path": "wallpapers/62.jpg"
+        },
+        {
+            "name": "windows10",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Logotype", "Light", "Dark"],
+            "path": "wallpapers/63.jpg"
+        },
+        {
+            "name": "windows10 1",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Light", "Dark"],
+            "path": "wallpapers/64.jpg"
+        },
+        {
+            "name": "windows10 2",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Light", "Dark"],
+            "path": "wallpapers/65.jpg"
+        },
+        {
+            "name": "windows10 3",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Dark"],
+            "path": "wallpapers/66.jpg"
+        },
+        {
+            "name": "windows10 4",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Dark"],
+            "path": "wallpapers/67.jpg"
+        },
+        {
+            "name": "windows10 5",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Flower", "Dark", "Light"],
+            "path": "wallpapers/68.jpg"
+        },
+        {
+            "name": "windows10 6",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Flower", "Light"],
+            "path": "wallpapers/69.jpg"
+        },
+        {
+            "name": "windows10 7",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Flower", "Wide", "Dark", "Light"],
+            "path": "wallpapers/70.jpg"
+        },
+        {
+            "name": "windows10 8",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Flower", "Dark", "Light"],
+            "path": "wallpapers/71.jpg"
+        },
+        {
+            "name": "windows10 9",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Flower", "Light"],
+            "path": "wallpapers/72.jpg"
+        },
+        {
+            "name": "windows10 10",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Flower", "Light"],
+            "path": "wallpapers/73.jpg"
+        },
+        {
+            "name": "windows10 11",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Dark", "Light"],
+            "path": "wallpapers/74.jpg"
+        },
+        {
+            "name": "windows10 12",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Light"],
+            "path": "wallpapers/75.png"
+        },
+        {
+            "name": "windows10 13",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Dark"],
+            "path": "wallpapers/76.jpg"
+        },
+        {
+            "name": "windows10 14",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Dark", "Light"],
+            "path": "wallpapers/77.png"
+        },
+        {
+            "name": "windows10 15",
+            "description": "From default windows10 wallpaper collection",
+            "tags": ["Nature", "Dark", "Light"],
+            "path": "wallpapers/78.jpg"
         }
     ]
 }
+
