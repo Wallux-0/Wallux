@@ -1,3 +1,4 @@
+
 # Wallux
 
 
@@ -40,6 +41,9 @@ Feel free to contribute your favorite wallpapers by:
 * Adding your wallpaper:
   * Fork <a href="https://github.com/Wallux-0/Wallpapers">this repository</a> which contains all the wallpapers.
   * Name your wallpaper as the largest wallpaper number + 1 without changing the extension. Upload the wallpaper to ``\wallpapers`` folder.
+  * Resize the images that you just added in the previous step to <b>500kb</b> using <a href="https://redketchup.io/bulk-image-resizer">www.redketchup.io</a> and add them to ``\compressed\wallpapers``.
+  > How to use <a href="https://redketchup.io/bulk-image-resizer">www.redketchup.io</a> to resize the images in bulk? Upload the images first. Set Predefined Task to ``Downscale to a maximum file size``. Then set the Maximum File Size to ``500 KB``. Proceed to process the images and download them.
+  * Please check if you have named the images properly as instructed above. The naming part is very important for the images to work.
   * Create a Pull Request and copy the PR's link for the next step.
 
 * Provide details of the wallpaper:
@@ -49,7 +53,7 @@ Feel free to contribute your favorite wallpapers by:
   {
       "name": "<wallpaper name>",
       "description": "<Description | Credits>",
-      "tags": ["<Tag1>", "<Tag2>", "dark", "light"],
+      "tags": ["<Tag1>", "<Tag2>", "Dark", "Light"],
       "path": "wallpapers/<wallpaper_number_in_wallpaper_repo>.<jpg|png>"
   }
   ```
