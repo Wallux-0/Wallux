@@ -124,3 +124,16 @@ body {
 a {
     color: #ee82ee;
 }
+
+.tag {
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 1vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding: 5 5 5 5;
+    font-size: 18;
+    cursor: pointer;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}

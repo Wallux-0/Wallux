@@ -1,3 +1,5 @@
+var theWallpaperDict = {};
+
 function shuffle(array) {
     var currentIndex = array.length,
         randomIndex;
@@ -10,6 +12,26 @@ function shuffle(array) {
     }
 
     return array;
+}
+
+
+function onlyTags(tag) {
+    final_array = shuffle(theWallpaperDict);
+    var container_ = document.getElementById("randomContainer");
+    container_.innerHTML = '';
+    for (i in final_array) {
+        tagstr = '';
+        arr = final_array[i]['tags'];
+        if (arr.indexOf(tag) >= 0) {
+            for (j in arr) {
+                tagstr += arr[j];
+                tagstr += ", ";
+            }
+            tagstr = tagstr.slice(0, -2);
+            container_.innerHTML +=
+                "<div class=\"glassyContainer\"> <img class = \"imgDisp\" loading=\"lazy\" src = \"https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + final_array[i]['path'] + "\"><div class=\"imgText\"> <b>" + final_array[i]['name'] + "</b><br>Description: " + final_array[i]['description'] + "<br>" + tagstr + "<br>Wallux ID: <b>" + final_array[i]['path'].replace(/\D/g, "") + "</b></div></div>";
+        }
+    }
 }
 
 function workwithdata(data) {
@@ -26,9 +48,23 @@ function workwithdata(data) {
         }
         tagstr = tagstr.slice(0, -2);
         container_.innerHTML +=
-            "<div class=\"glassyContainer\"> <img class = \"imgDisp\" loading=\"lazy\" src = \"https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + final_array[i]['path'] + "\"><div class=\"imgText\"> <b>" + final_array[i]['name'] + "</b><br>Description: "+final_array[i]['description']+"<br>" + tagstr + "<br>Wallux ID: <b>" + final_array[i]['path'].replace(/\D/g, "") + "</b></div></div>";
+            "<div class=\"glassyContainer\"> <img class = \"imgDisp\" loading=\"lazy\" src = \"https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + final_array[i]['path'] + "\"><div class=\"imgText\"> <b>" + final_array[i]['name'] + "</b><br>Description: " + final_array[i]['description'] + "<br>" + tagstr + "<br>Wallux ID: <b>" + final_array[i]['path'].replace(/\D/g, "") + "</b></div></div>";
     }
-
+    var tagContainer = document.getElementById("tagContainer");
+    tagContainer.innerHTML = '';
+    tags = '';
+    tarr = [];
+    for (i in final_array) {
+        arr = final_array[i]['tags'];
+        for (j in arr) {
+            if (tarr.indexOf(arr[j]) < 0) {
+                tarr.push(arr[j]);
+                tags += "<a onclick=\"onlyTags(\'" + arr[j] + "\')\"> <div class=\"tag\">" + arr[j] + "</div> </a>";
+            }
+        }
+    }
+    tagContainer.innerHTML = tags;
+    theWallpaperDict = final_array;
 };
 
 $.ajax({
