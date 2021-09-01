@@ -37,28 +37,9 @@ OR
 
 ### How to contribute
 
-Feel free to contribute your favorite wallpapers by:
-* Adding your wallpaper:
-  * Fork <a href="https://github.com/Wallux-0/Wallpapers">this repository</a> which contains all the wallpapers.
-  * Name your wallpaper as the largest wallpaper number + 1 without changing the extension. Upload the wallpaper to ``\wallpapers`` folder.
-  * Resize the images that you just added in the previous step to <b>500kb</b> using <a href="https://redketchup.io/bulk-image-resizer">www.redketchup.io</a> and add them to ``\compressed\wallpapers``.
-  > How to use <a href="https://redketchup.io/bulk-image-resizer">www.redketchup.io</a> to resize the images in bulk? Upload the images first. Set Predefined Task to ``Downscale to a maximum file size``. Then set the Maximum File Size to ``500 KB``. Proceed to process the images and download them.
-  * Please check if you have named the images properly as instructed above. The naming part is very important for the images to work.
-  * Create a Pull Request and copy the PR's link for the next step.
-
-* Provide details of the wallpaper:
-  * Fork <a href="https://github.com/Wallux-0/Wallux">this repository</a> which contains all program.
-  * Add a line at the end in ``static/tags.json`` as shown below.
-  ```json
-  {
-      "name": "<wallpaper name>",
-      "description": "<Description | Credits>",
-      "tags": ["<Tag1>", "<Tag2>", "Dark", "Light"],
-      "path": "wallpapers/<wallpaper_number_in_wallpaper_repo>.<jpg|png>"
-  }
-  ```
-  > Make sure to add ``"Light"`` and/or ``"Dark"`` in ``"tags"``.
-  * Create a PR and provide the link of the PR you have previosly created in the description.
+Create an issue and attach an high-res version of the wallpaper you wish to contribute and name the issue as **Wallpaper Request**.
+You can optionally provide Name, Tags and Description.
+Please try to provide the source of the wallpaper too.
 
 ### Problems?
 
