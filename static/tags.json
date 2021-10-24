@@ -466,6 +466,390 @@
             "description": "From default Windows 10 wallpaper collection",
             "tags": ["Nature", "Dark", "Light"],
             "path": "wallpapers/78.jpg"
+        },
+        {
+            "name": "Dawn",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Sadness", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/79.jpg"
+        },
+        {
+            "name": "Sad Hours",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Drawing", "Sadness", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/80.jpg"
+        },
+        {
+            "name": "Street at Dusk",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Drawing", "Dark", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/81.jpg"
+        },
+        {
+            "name": "Rainy Road",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Sea", "Drawing", "Aesthetically Pleasing", "Couple", "Light"],
+            "path": "wallpapers/82.jpg"
+        },
+        {
+            "name": "The Plant Shop",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/83.png"
+        },
+        {
+            "name": "Roller Coaster",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Anime", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/84.jpg"
+        },
+        {
+            "name": "Lonely Bus Ride",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Sadness", "Light"],
+            "path": "wallpapers/85.jpg"
+        },
+        {
+            "name": "Blue Sea Over A Starry Night",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Sea", "Drawing", "Aesthetically Pleasing", "Couple", "Light"],
+            "path": "wallpapers/86.jpg"
+        },
+        {
+            "name": "The Devil's Horns",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Alone", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/87.jpg"
+        },
+        {
+            "name": "Fast Moving Lights",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Mountain", "Dusk", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/88.jpg"
+        },
+        {
+            "name": "Japanese Mountains",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Dusk", "Anime", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/89.jpg"
+        },
+        {
+            "name": "Inner Panther",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/90.jpg"
+        },
+        {
+            "name": "Cherry Blossom",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Sky", "Drawing", "Anime", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/91.jpg"
+        },
+        {
+            "name": "Dawn at Dorm",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Sadness", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/92.jpg"
+        },
+        {
+            "name": "Cloudy Sky",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Sky", "Drawing", "Mountain", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/93.jpg"
+        },
+        {
+            "name": "City Skies",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/94.jpg"
+        },
+        {
+            "name": "Love in the Mountains",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Dusk", "Couple", "Drawing", "Mountain", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/95.jpg"
+        },
+        {
+            "name": "Sun Ring",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Drawing", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/96.jpg"
+        },
+        {
+            "name": "Rising Sea",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Drawing", "Sea", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/97.jpg"
+        },
+        {
+            "name": "Parting Spirit",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Drawing", "Sadness", "Couple", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/98.jpg"
+        },
+        {
+            "name": "Rooftops",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Sky", "Sadness", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/99.jpg"
+        },
+        {
+            "name": "Glass Ferris",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Sky", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/100.png"
+        },
+        {
+            "name": "Lonely Roads",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Forest", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/101.jpg"
+        },
+        {
+            "name": "Waterfalls",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Nature", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/102.jpg"
+        },
+        {
+            "name": "Dance at Dawn",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "City", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/103.jpg"
+        },
+        {
+            "name": "The Plant Shop",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Nature", "Couple", "Drawing", "Flower", "Light"],
+            "path": "wallpapers/104.jpg"
+        },
+        {
+            "name": "Spooky Skies",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Sky", "Drawing", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/105.jpg"
+        },
+        {
+            "name": "Cycling through Utopia",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Sky", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/106.jpg"
+        },
+        {
+            "name": "Rainy Tracks",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Sky", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/107.jpg"
+        },
+        {
+            "name": "Future City",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Drawing", "Sky", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/108.jpg"
+        },
+        {
+            "name": "Alone with the storm",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Drawing", "Sadness", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/109.jpg"
+        },
+        {
+            "name": "Alone at dusk",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Drawing", "Sky", "Sadness", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/110.jpg"
+        },
+        {
+            "name": "Messy Sky",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Sky", "Drawing", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/111.png"
+        },
+        {
+            "name": "Drowning Moon",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Sea", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/112.jpg"
+        },
+        {
+            "name": "Dark Mountain View",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Mountain", "Night", "Drawing", "Nature", "Sky", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/113.jpg"
+        },
+        {
+            "name": "Neon Streets",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Drawing", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/114.png"
+        },
+        {
+            "name": "Love at dawn",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Dusk", "Drawing", "Couple", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/115.jpg"
+        },
+        {
+            "name": "Together on Water",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Sea", "Dawn", "Drawing", "Couple", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/116.jpg"
+        },
+        {
+            "name": "Caravan to the mountains",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Mountain", "Drawing", "Sky", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/117.jpg"
+        },
+        {
+            "name": "Urban Sunrise",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Sky", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/118.jpg"
+        },
+        {
+            "name": "Pink Abduction",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Drawing", "Alone", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/119.jpg"
+        },
+        {
+            "name": "Portal at night",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Drawing", "Mountain", "Sky", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/120.jpg"
+        },
+        {
+            "name": "Snowy Mountains",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Mountain", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/121.jpg"
+        },
+        {
+            "name": "Colorful Forest",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Forest", "Sky", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/122.jpg"
+        },
+        {
+            "name": "Lonely Rooftops",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Anime", "Sky", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/123.jpg"
+        },
+        {
+            "name": "Twirling Planet",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Space", "Drawing", "Sky", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/124.jpg"
+        },
+        {
+            "name": "Blooming Sun",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Sky", "Drawing", "Sea", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/125.jpg"
+        },
+        {
+            "name": "Dawning Together",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Couple", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/126.jpg"
+        },
+        {
+            "name": "Alone with icebergs",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Sea", "Drawing", "Sky", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/127.jpg"
+        },
+        {
+            "name": "Among the grass",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Couple", "Nature", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/128.png"
+        },
+        {
+            "name": "Forest to City",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Sky", "Drawing", "Forest", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/129.jpg"
+        },
+        {
+            "name": "Red Dawn",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Sky", "Sea", "Drawing", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/130.jpg"
+        },
+        {
+            "name": "Purple Skies",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Cat", "Sky", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/131.jpg"
+        },
+        {
+            "name": "Icy Morning",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Sea", "Mountain", "Drawing", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/132.jpg"
+        },
+        {
+            "name": "Sunrise with Cat",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Anime", "Drawing", "Cat", "Aesthetically Pleasing", "Sky", "Light", "Dark"],
+            "path": "wallpapers/133.jpg"
+        },
+        {
+            "name": "Alone as the day starts",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Sadness", "Sky", "Aesthetically Pleasing", "Dark"],
+            "path": "wallpapers/134.png"
+        },
+        {
+            "name": "Space through cassette",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Space", "Sky", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/135.jpg"
+        },
+        {
+            "name": "Arching thunder",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Sky", "Nature", "Night"],
+            "path": "wallpapers/136.jpg"
+        },
+        {
+            "name": "Cherry Blossom in city",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Nature", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/137.jpg"
+        },
+        {
+            "name": "Colorful Icy Mountains",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Sky", "Drawing", "Mountain", "Light"],
+            "path": "wallpapers/138.jpg"
+        },
+        {
+            "name": "Cycling through the night",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Night", "Anime", "Sky", "Couple", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/139.png"
+        },
+        {
+            "name": "Merging of sea and sky",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Anime", "Drawing", "Sea", "Sky", "Aesthetically Pleasing", "Light"],
+            "path": "wallpapers/140.jpg"
+        },
+        {
+            "name": "Biking on the mountain road",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dawn", "Drawing", "Mountain", "Aesthetically Pleasing", "Light", "Dark"],
+            "path": "wallpapers/141.jpg"
+        },
+        {
+            "name": "Painted Skies",
+            "description": "From h4x5p4c's Wallpaper Repo",
+            "tags": ["Dusk", "Drawing", "Couple", "Aesthetically Pleasing", "Sea", "Light"],
+            "path": "wallpapers/142.jpg"
         }
     ]
 }
