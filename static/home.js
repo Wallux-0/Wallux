@@ -114,6 +114,7 @@ $.ajax({
 window.addEventListener('mouseup', function(event) {
     var pol = document.getElementById('fullimg');
     if (event.target != pol && event.target.parentNode != pol) {
+        document.getElementById("fulldisp_img").src = "";
         pol.style.display = 'none';
     }
 });
