@@ -1,5 +1,15 @@
 var theWallpaperDict = {};
 
+var ScrollCounter = 0;
+
+function onScrollFunction() {
+    console.log(window.scrollY);
+    elem = document.getElementById('fullimg');
+    elem.style.top = window.scrollY + 120;
+}
+
+window.addEventListener('scroll', function(event) { onScrollFunction() });
+
 function shuffle(array) {
     var currentIndex = array.length,
         randomIndex;
