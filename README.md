@@ -8,11 +8,17 @@
   :small_blue_diamond: <a href="https://wallux-0.github.io/Wallux/"> Visit the Website </a> :small_blue_diamond:
 </div>
 
-## Wallpapers for GNOME, KDE and XFCE
+## Beautiful Wallpapers. Curated.
 
 A collection of beautiful wallpapers. That's it. As simple as that!
 
-### How to get Wallux
+### How to download a wallpaper.
+
+Click on your heart's choice. Click Download. That's it.
+
+In some devices, the wallpaper will be opened in a new tab. If that's the case, right click on the opened image and click Save As to download.
+
+### How to get Wallux App for your device
 
 * Download the Desktop App (linux only) from <a href="https://github.com/Wallux-0/Wallux-Desktop/releases/download/beta/wallux">here</a>.
 
@@ -29,7 +35,7 @@ OR
     python3 wallux.py
     ```
 
-### How to use Wallux (Only if you have downloaded the script)
+### How to use Wallux App (Only if you have downloaded the script)
 
 * Checkout all the available wallpapers using this <a href="https://wallux-0.github.io/Wallux/">link</a>.
 * Type the id number of the wallpaper you like and relax.
