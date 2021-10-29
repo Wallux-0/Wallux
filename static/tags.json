@@ -850,6 +850,120 @@
             "description": "From h4x5p4c's Wallpaper Repo",
             "tags": ["Dusk", "Drawing", "Couple", "Aesthetically Pleasing", "Sea", "Light"],
             "path": "wallpapers/142.jpg"
+        },
+        {
+            "name": "Grid Parrot",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Branding"],
+            "path": "wallpapers/143.jpg"
+        },
+        {
+            "name": "Parrot login",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract"],
+            "path": "wallpapers/144.jpg"
+        },
+        {
+            "name": "Macaw",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Colorful", "Branding"],
+            "path": "wallpapers/145.jpg"
+        },
+        {
+            "name": "Macaw poly 1",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Colorful", "Branding"],
+            "path": "wallpapers/146.jpg"
+        },
+        {
+            "name": "Macaw poly 2",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Colorful", "Branding"],
+            "path": "wallpapers/147.jpg"
+        },
+        {
+            "name": "Macaw Vaporwave",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Colorful", "Vaporwave"],
+            "path": "wallpapers/148.jpg"
+        },
+        {
+            "name": "Mask smog",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Black and White"],
+            "path": "wallpapers/149.jpg"
+        },
+        {
+            "name": "Mystic horizon",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Space"],
+            "path": "wallpapers/150.jpg"
+        },
+        {
+            "name": "Nefelibata",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Colorful"],
+            "path": "wallpapers/151.jpg"
+        },
+        {
+            "name": "Outer space 3d",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Sky", "Abstract"],
+            "path": "wallpapers/152.jpg"
+        },
+        {
+            "name": "Outer space earth",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark"],
+            "path": "wallpapers/153.jpg"
+        },
+        {
+            "name": "Outer space hands",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Space"],
+            "path": "wallpapers/154.jpg"
+        },
+        {
+            "name": "Parrot Abstract",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Colorful", "Branding" ],
+            "path": "wallpapers/155.jpg"
+        },
+        {
+            "name": "Parrot Abstract grey",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Branding"],
+            "path": "wallpapers/156.jpg"
+        },
+        {
+            "name": "Parrot glitch",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Colorful", "Branding"],
+            "path": "wallpapers/157.jpg"
+        },
+        {
+            "name": "Parrot splash",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Abstract", "Colorful", "Branding"],
+            "path": "wallpapers/158.jpg"
+        },
+        {
+            "name": "Spectral horizon",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Space", "Mountain"],
+            "path": "wallpapers/159.jpg"
+        },
+        {
+            "name": "Parrot splash 2",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Colorful", "Branding"],
+            "path": "wallpapers/160.jpg"
+        },
+        {
+            "name": "Toxic",
+            "description": "From Parrot OS default wallpaper collection",
+            "tags": ["Dark", "Colorful"],
+            "path": "wallpapers/161.jpg"
         }
     ]
 }
