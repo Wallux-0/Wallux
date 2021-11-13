@@ -42,7 +42,7 @@ function openfullimage(id) {
     document.getElementById("fullimagedisplay_name").innerHTML = elem['name'];
     document.getElementById("fullimagedisplay_desc").innerHTML = elem['description'];
     document.getElementById("fullimagedisplay_id").innerHTML = elem['path'].replace(/\D/g, "");
-    document.getElementById("fullimagedisplay_tags").innerHTML = tagstr;
+    document.getElementById("fullimagedisplay_tags").innerHTML = "Wallux ID" + tagstr;
     document.getElementById("fullimagedisplay_link_download_primary").href = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/" + elem['path'];
     document.getElementById("fullimagedisplay_link_download_secondary").href = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/" + elem['path'];
     document.getElementById("fullimg").style.display = 'block';
