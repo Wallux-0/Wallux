@@ -149,7 +149,6 @@
     
     .fullimagedisplay {
         border-radius: 0.5vh;
-        background: rgba( 255, 255, 255, 0.2);
         backdrop-filter: blur(15px) saturate(150%);
         position: absolute;
         z-index: 100;
@@ -159,6 +158,7 @@
         width: calc(100%-20%);
         height: calc(100%-10%);
         display: none;
+        background: rgba( 255, 255, 255, 0.3);
     }
     
     .fullimagedisplay_img {
