@@ -3,13 +3,6 @@ import os
 import requests
 
 os.system("clear")
-# print("""
-# ██     ██  █████  ██      ██      ██    ██ ██   ██ 
-# ██     ██ ██   ██ ██      ██      ██    ██  ██ ██  
-# ██  █  ██ ███████ ██      ██      ██    ██   ███   
-# ██ ███ ██ ██   ██ ██      ██      ██    ██  ██ ██  
-#  ███ ███  ██   ██ ███████ ███████  ██████  ██   ██ 
-#                                                    """)
 text = ["██     ██  █████  ██      ██      ██    ██ ██   ██ ",
         "██     ██ ██   ██ ██      ██      ██    ██  ██ ██  ",
         "██  █  ██ ███████ ██      ██      ██    ██   ███   ",
@@ -98,9 +91,12 @@ elif max(de, key=de.get) == "xfce":
     print("[SUCCESS] New wallpaper set!")
     exit()
 elif max(de, key=de.get) == "mate":
-    # Command example: conf write /org/mate/desktop/background/picture-filename "'path_to_img.png'"
-    # Note that the single quotes inside the double quotes (around the file path) are absolutely necessary.
-    cmd = "dconf write /org/mate/desktop/background/picture-filename \"" + f"'{path}'" + "\"" 
+    """
+    Command example: conf write /org/mate/desktop/background/picture-filename "'path_to_img.png'"
+    Note that the single quotes inside the double quotes (around the file path) are absolutely necessary.
+    """
+    cmd = "dconf write /org/mate/desktop/background/picture-filename \"" + \
+        f"'{path}'" + "\""
     os.system(cmd)
     print("[SUCCESS] New wallpaper set!")
 else:
