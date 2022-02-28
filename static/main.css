@@ -149,7 +149,7 @@
     
     .fullimagedisplay {
         border-radius: 0.5vh;
-        backdrop-filter: blur(15px) saturate(150%);
+        background-color: rgba(255, 255, 255, .7);
         position: absolute;
         z-index: 100;
         right: 5vh;
@@ -158,7 +158,6 @@
         width: calc(100%-20%);
         height: calc(100%-10%);
         display: none;
-        background: rgba( 255, 255, 255, 0.3);
     }
     
     .fullimagedisplay_img {
@@ -166,32 +165,30 @@
         height: 50%;
         padding: 20 20 20 20;
         border-radius: 1.5vh;
+        display: inline-block;
     }
     
     .fullimagedisplay_content {
         padding: 100 20 0 30;
-        float: right;
         width: 45%;
         color: black;
+        display: inline-block;
     }
     
     .button {
         background: rgba( 255, 255, 255, 0.5);
         border: none;
         border-radius: 0.5vh;
-        font-size: 28;
+        font-size: 1.3rem;
         font-family: 'Montserrat', sans-serif;
         backdrop-filter: blur(5px) saturate(150%);
+        border: 1px solid #000000;
         padding: 10 10 10 10;
         margin-right: 10;
         cursor: pointer;
     }
     
-    .button1 {
-        display: none;
-    }
-    
-    @media only screen and (max-width: 960px) {
+    @media only screen and (max-width: 1000px) {
         .fullimagedisplay {
             height: 60%;
         }
@@ -204,21 +201,5 @@
             float: left;
             display: inline;
             font-size: 12;
-        }
-        .button {
-            display: none;
-        }
-        .button1 {
-            display: inline-block;
-            background: rgba( 255, 255, 255, 0.5);
-            border: none;
-            float: right;
-            border-radius: 0.5vh;
-            font-size: 38;
-            font-family: 'Montserrat', sans-serif;
-            backdrop-filter: blur(5px) saturate(150%);
-            padding: 10 10 10 10;
-            margin-right: 10;
-            cursor: pointer;
         }
     }

@@ -24,6 +24,11 @@ function shuffle(array) {
     return array;
 }
 
+function copyToClipboard(link) {
+    navigator.clipboard.writeText(link);
+    alert("Copied sharing link to clipboard!");
+}
+
 function openfullimage(id) {
     tagstr = '';
     id = parseInt(id);
@@ -43,8 +48,8 @@ function openfullimage(id) {
     document.getElementById("fullimagedisplay_desc").innerHTML = elem['description'];
     document.getElementById("fullimagedisplay_id").innerHTML = "Wallux ID: " + elem['path'].replace(/\D/g, "");
     document.getElementById("fullimagedisplay_tags").innerHTML = tagstr;
-    document.getElementById("fullimagedisplay_link_download_primary").href = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/" + elem['path'];
-    document.getElementById("fullimagedisplay_link_download_secondary").href = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/" + elem['path'];
+    document.getElementById("fullimagedisplay_link_download").href = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/" + elem['path'];
+    document.getElementById("fullimagedisplay_link_share").onclick = function() { copyToClipboard(window.location.href.split("?")[0] + "?walluxid=" + elem['path'].replace(/\D/g, "")); }
     document.getElementById("fullimg").style.display = 'block';
 }
 
@@ -119,3 +124,12 @@ window.addEventListener('mouseup', function(event) {
         pol.style.display = 'none';
     }
 });
+
+let currenturl = new URL(window.location.href);
+let params = new URLSearchParams(currenturl.search);
+let walluxid = params.get('walluxid');
+if (walluxid !== null) {
+    if (isNaN(parseInt(walluxid)) === false) {
+        openfullimage(parseInt(walluxid));
+    }
+}
