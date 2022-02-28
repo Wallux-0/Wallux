@@ -45,7 +45,6 @@ function openfullimage(id) {
     tagstr = tagstr.slice(0, -2);
     // Set new meta tags for current image
 
-    document.getElementsByTagName('head')[0].appendChild(metasitetype);
     var metaimg = document.createElement('meta');
     metaimg.setAttribute('property', 'og:image');
     metaimg.content = metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + final_array[i]['path'];
