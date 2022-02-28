@@ -43,6 +43,28 @@ function openfullimage(id) {
         tagstr += ", ";
     }
     tagstr = tagstr.slice(0, -2);
+    // Set new meta tags for current image
+
+    document.getElementsByTagName('head')[0].appendChild(metasitetype);
+    var metaimg = document.createElement('meta');
+    metaimg.setAttribute('property', 'og:image');
+    metaimg.content = metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + final_array[i]['path'];
+    document.getElementsByTagName('head')[0].appendChild(metaimg);
+    var metatitle = document.createElement('meta');
+    metatitle.setAttribute('property', 'og:title');
+    metatitle.content = metatitle.content = "Wallux - " + elem['name'];
+    document.getElementsByTagName('head')[0].appendChild(metatitle);
+    var metadesc = document.createElement('meta');
+    metadesc.setAttribute('property', 'og:description');
+    metadesc.content = metadesc.content = "Get " + elem['name'] + " from Wallux.";
+    document.getElementsByTagName('head')[0].appendChild(metadesc);
+    var metaurl = document.createElement('meta');
+    metaurl.setAttribute('property', 'og:url');
+    metaurl.content = metaurl.content = "https://wallux-0.github.io/Wallux/?walluxid=" + elem['path'].replace(/\D/g, "");
+    document.getElementsByTagName('head')[0].appendChild(metaurl);
+
+    // Do image display stuff
+
     document.getElementById("fulldisp_img").src = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/" + elem['path'];
     document.getElementById("fullimagedisplay_name").innerHTML = elem['name'];
     document.getElementById("fullimagedisplay_desc").innerHTML = elem['description'];
@@ -111,6 +133,35 @@ function workwithdata(data) {
         if (isNaN(parseInt(walluxid)) === false) {
             openfullimage(parseInt(walluxid));
         }
+    } else {
+        var metasitetype = document.createElement('meta');
+        metasitetype.setAttribute('property', 'og:type');
+        metasitetype.content = "website";
+        document.getElementsByTagName('head')[0].appendChild(metasitetype);
+        var metaimg = document.createElement('meta');
+        metaimg.setAttribute('property', 'og:image');
+        metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallux/main/Wallux_cover.png"; //metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + final_array[i]['path'];
+        document.getElementsByTagName('head')[0].appendChild(metaimg);
+        var metatitle = document.createElement('meta');
+        metatitle.setAttribute('property', 'og:title');
+        metatitle.content = "Wallux"; //metatitle.content = "Wallux - "+elem['name'];
+        document.getElementsByTagName('head')[0].appendChild(metatitle);
+        var metadesc = document.createElement('meta');
+        metadesc.setAttribute('property', 'og:description');
+        metadesc.content = "Beautiful Wallpapers. Curated."; //metadesc.content = "Get "+elem['name']+" from Wallux.";
+        document.getElementsByTagName('head')[0].appendChild(metadesc);
+        var metaurl = document.createElement('meta');
+        metaurl.setAttribute('property', 'og:url');
+        metaurl.content = "https://wallux-0.github.io/Wallux/"; //metaurl.content = "https://wallux-0.github.io/Wallux/?walluxid="+id;
+        document.getElementsByTagName('head')[0].appendChild(metaurl);
+        var metathemecolor = document.createElement('meta');
+        metathemecolor.setAttribute('property', 'og:url');
+        metathemecolor.content = "#ff00bb";
+        document.getElementsByTagName('head')[0].appendChild(metathemecolor);
+        var metacardlarge = document.createElement('meta');
+        metacardlarge.setAttribute('property', 'twitter:card');
+        metacardlarge.content = "summary_large_image";
+        document.getElementsByTagName('head')[0].appendChild(metacardlarge);
     }
 };
 
