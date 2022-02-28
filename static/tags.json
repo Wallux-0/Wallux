@@ -964,6 +964,12 @@
             "description": "From Parrot OS default wallpaper collection",
             "tags": ["Dark", "Colorful"],
             "path": "wallpapers/161.jpg"
+        },
+        {
+            "name": "Komi Window Stare",
+            "description": "Feature's Komi-San from Komi San Can't Communicate",
+            "tags": ["Dark", "Anime", "Aesthetically Pleasing"],
+            "path": "wallpapers/162.jpg"
         }
     ]
 }
