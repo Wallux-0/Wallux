@@ -75,7 +75,7 @@ function onlyTags(tag) {
 }
 
 function workwithdata(data) {
-    unmodifiedData = data;
+    unmodifiedData = JSON.parse(JSON.stringify(data));
     var final_array = [];
     final_array = shuffle(data['wallpaper']);
     var container_ = document.getElementById("randomContainer");
@@ -119,7 +119,7 @@ function workwithdata(data) {
             document.getElementsByTagName('head')[0].appendChild(metasitetype);
             var metaimg = document.createElement('meta');
             metaimg.setAttribute('property', 'og:image');
-            metaimg.content = metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + unmodifiedData[walluxid]['path'];
+            metaimg.content = metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + unmodifiedData['wallpaper'][walluxid]['path'];
             document.getElementsByTagName('head')[0].appendChild(metaimg);
             var metasitename = document.createElement('meta');
             metasitename.setAttribute('property', 'og:site_name');
@@ -127,11 +127,11 @@ function workwithdata(data) {
             document.getElementsByTagName('head')[0].appendChild(metasitename);
             var metatitle = document.createElement('meta');
             metatitle.setAttribute('property', 'og:title');
-            metatitle.content = metatitle.content = "Wallux - " + unmodifiedData[walluxid]['name'];
+            metatitle.content = metatitle.content = "Wallux - " + unmodifiedData['wallpaper'][walluxid]['name'];
             document.getElementsByTagName('head')[0].appendChild(metatitle);
             var metadesc = document.createElement('meta');
             metadesc.setAttribute('property', 'og:description');
-            metadesc.content = metadesc.content = "Get " + unmodifiedData[walluxid]['name'] + " from Wallux.";
+            metadesc.content = metadesc.content = "Get " + unmodifiedData['wallpaper'][walluxid]['name'] + " from Wallux.";
             document.getElementsByTagName('head')[0].appendChild(metadesc);
             var metaurl = document.createElement('meta');
             metaurl.setAttribute('property', 'og:url');
