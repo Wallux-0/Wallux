@@ -33,6 +33,7 @@ function openfullimage(id) {
     tagstr = '';
     id = parseInt(id);
     for (i in theWallpaperDict) {
+        console.log((theWallpaperDict[i]['path'].replace(/\D/g, "") == id), theWallpaperDict[i]['path'])
         if (theWallpaperDict[i]['path'].replace(/\D/g, "") == id) {
             elem = theWallpaperDict[i];
         }
