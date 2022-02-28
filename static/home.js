@@ -33,7 +33,6 @@ function openfullimage(id) {
     tagstr = '';
     id = parseInt(id);
     for (i in theWallpaperDict) {
-        console.log((theWallpaperDict[i]['path'].replace(/\D/g, "") == id), theWallpaperDict[i]['path'])
         if (theWallpaperDict[i]['path'].replace(/\D/g, "") == id) {
             elem = theWallpaperDict[i];
         }
@@ -104,6 +103,15 @@ function workwithdata(data) {
     }
     tagContainer.innerHTML = tags;
     theWallpaperDict = final_array;
+    // Check if wallpaper ID is passed and if so, display that wallpaper
+    let currenturl = new URL(window.location.href);
+    let params = new URLSearchParams(currenturl.search);
+    let walluxid = params.get('walluxid');
+    if (walluxid !== null) {
+        if (isNaN(parseInt(walluxid)) === false) {
+            openfullimage(parseInt(walluxid));
+        }
+    }
 };
 
 $.ajax({
@@ -125,12 +133,3 @@ window.addEventListener('mouseup', function(event) {
         pol.style.display = 'none';
     }
 });
-
-let currenturl = new URL(window.location.href);
-let params = new URLSearchParams(currenturl.search);
-let walluxid = params.get('walluxid');
-if (walluxid !== null) {
-    if (isNaN(parseInt(walluxid)) === false) {
-        openfullimage(parseInt(walluxid));
-    }
-}
