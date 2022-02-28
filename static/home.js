@@ -47,7 +47,7 @@ function openfullimage(id) {
 
     var metaimg = document.createElement('meta');
     metaimg.setAttribute('property', 'og:image');
-    metaimg.content = metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + final_array[i]['path'];
+    metaimg.content = metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + elem['path'];
     document.getElementsByTagName('head')[0].appendChild(metaimg);
     var metatitle = document.createElement('meta');
     metatitle.setAttribute('property', 'og:title');
