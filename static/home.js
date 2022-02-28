@@ -112,77 +112,8 @@ function workwithdata(data) {
     let walluxid = params.get('walluxid');
     if (walluxid !== null) {
         if (isNaN(parseInt(walluxid)) === false) {
-
-            var metasitetype = document.createElement('meta');
-            metasitetype.setAttribute('property', 'og:type');
-            metasitetype.content = "website";
-            document.getElementsByTagName('head')[0].appendChild(metasitetype);
-            var metaimg = document.createElement('meta');
-            metaimg.setAttribute('property', 'og:image');
-            metaimg.content = metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallpapers/main/compressed/" + unmodifiedData['wallpaper'][walluxid - 1]['path'];
-            document.getElementsByTagName('head')[0].appendChild(metaimg);
-            var metasitename = document.createElement('meta');
-            metasitename.setAttribute('property', 'og:site_name');
-            metasitename.content = "Wallux";
-            document.getElementsByTagName('head')[0].appendChild(metasitename);
-            var metatitle = document.createElement('meta');
-            metatitle.setAttribute('property', 'og:title');
-            metatitle.content = metatitle.content = "Wallux - " + unmodifiedData['wallpaper'][walluxid - 1]['name'];
-            document.getElementsByTagName('head')[0].appendChild(metatitle);
-            var metadesc = document.createElement('meta');
-            metadesc.setAttribute('property', 'og:description');
-            metadesc.content = metadesc.content = "Get " + unmodifiedData['wallpaper'][walluxid - 1]['name'] + " from Wallux.";
-            document.getElementsByTagName('head')[0].appendChild(metadesc);
-            var metaurl = document.createElement('meta');
-            metaurl.setAttribute('property', 'og:url');
-            metaurl.content = metaurl.content = "https://wallux-0.github.io/Wallux/?walluxid=" + walluxid;
-            document.getElementsByTagName('head')[0].appendChild(metaurl);
-            var metathemecolor = document.createElement('meta');
-            metathemecolor.setAttribute('property', 'og:theme-color');
-            metathemecolor.content = "#ff00bb";
-            document.getElementsByTagName('head')[0].appendChild(metathemecolor);
-            var metacardlarge = document.createElement('meta');
-            metacardlarge.setAttribute('property', 'twitter:card');
-            metacardlarge.content = "summary_large_image";
-            document.getElementsByTagName('head')[0].appendChild(metacardlarge);
-
             openfullimage(parseInt(walluxid));
         }
-    } else {
-
-        var metasitetype = document.createElement('meta');
-        metasitetype.setAttribute('property', 'og:type');
-        metasitetype.content = "website";
-        document.getElementsByTagName('head')[0].appendChild(metasitetype);
-        var metaimg = document.createElement('meta');
-        metaimg.setAttribute('property', 'og:image');
-        metaimg.content = "https://raw.githubusercontent.com/Wallux-0/Wallux/main/Wallux_cover.png";
-        document.getElementsByTagName('head')[0].appendChild(metaimg);
-        var metasitename = document.createElement('meta');
-        metasitename.setAttribute('property', 'og:site_name');
-        metasitename.content = "Wallux";
-        document.getElementsByTagName('head')[0].appendChild(metasitename);
-        var metatitle = document.createElement('meta');
-        metatitle.setAttribute('property', 'og:title');
-        metatitle.content = "Wallux";
-        document.getElementsByTagName('head')[0].appendChild(metatitle);
-        var metadesc = document.createElement('meta');
-        metadesc.setAttribute('property', 'og:description');
-        metadesc.content = "Beautiful Wallpapers. Curated.";
-        document.getElementsByTagName('head')[0].appendChild(metadesc);
-        var metaurl = document.createElement('meta');
-        metaurl.setAttribute('property', 'og:url');
-        metaurl.content = "https://wallux-0.github.io/Wallux/";
-        document.getElementsByTagName('head')[0].appendChild(metaurl);
-        var metathemecolor = document.createElement('meta');
-        metathemecolor.setAttribute('property', 'og:theme-color');
-        metathemecolor.content = "#ff00bb";
-        document.getElementsByTagName('head')[0].appendChild(metathemecolor);
-        var metacardlarge = document.createElement('meta');
-        metacardlarge.setAttribute('property', 'twitter:card');
-        metacardlarge.content = "summary_large_image";
-        document.getElementsByTagName('head')[0].appendChild(metacardlarge);
-
     }
 };
 
