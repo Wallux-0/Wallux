@@ -970,6 +970,78 @@
             "description": "Feature's Komi-San from Komi San Can't Communicate",
             "tags": ["Dark", "Anime", "Aesthetically Pleasing"],
             "path": "wallpapers/162.jpg"
+        },
+        {
+            "name": "Big Sur 1",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Light", "Abstract", "Colorful"],
+            "path": "wallpapers/162.jpg"
+        },
+        {
+            "name": "Big Sur 2",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature", "Ocean", "Night"],
+            "path": "wallpapers/163.jpg"
+        },
+        {
+            "name": "Big Sur 3",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Abstract", "Colorful"],
+            "path": "wallpapers/164.jpg"
+        },
+        {
+            "name": "Big Sur 4",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature", "Ocean"],
+            "path": "wallpapers/165.jpg"
+        },
+        {
+            "name": "Big Sur 5",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature"],
+            "path": "wallpapers/166.jpg"
+        },
+        {
+            "name": "Big Sur 6",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature", "Ocean"],
+            "path": "wallpapers/167.jpg"
+        },
+        {
+            "name": "Big Sur 7",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature", "Ocean"],
+            "path": "wallpapers/168.jpg"
+        },
+        {
+            "name": "Big Sur 8",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature", "Ocean"],
+            "path": "wallpapers/169.jpg"
+        },
+        {
+            "name": "Big Sur 9",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature", "Ocean"],
+            "path": "wallpapers/170.jpg"
+        },
+        {
+            "name": "Big Sur 10",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature", "Night", "Desert"],
+            "path": "wallpapers/171.jpg"
+        },
+        {
+            "name": "Big Sur 11",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature"],
+            "path": "wallpapers/172.jpg"
+        },
+        {
+            "name": "Big Sur 12",
+            "description": "From Big Sur wallpaper collection",
+            "tags": ["macOS", "Big Sur", "Dark", "Nature"],
+            "path": "wallpapers/173.jpg"
         }
     ]
 }
